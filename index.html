@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a{
+      text-decoration: none;
+      color: #ccc;
+    }
+    .attribution a:hover { color: #9acd32 }
+    body{
+      background-color: #000000;
+      height: 100%;
+      width: 100%;
+    }
+    section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      height: 90vh;
+      width: 300px;
+      background-color: #272727;
+      border-radius: 20px;
+      margin: 0 auto;
+      margin-top: 5vh;
+      text-align: center;
+    }
+
+
+
+    img{
+      border-radius: 100%;
+      display: flex;
+      margin-left: 75px;
+    }
+
+    h4{
+      color: #9acd32;
+      margin-bottom: 3vw;
+    }
+
+    ul li{
+      list-style: none;
+      margin-top: 3vh;
+      background-color: rgb(59, 59, 59);
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    ul li:hover{
+      background-color: #9acd32;
+      color: #000000;
+      cursor: pointer;
+      padding: 11px;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div>
+      <img src="assets/images/avatar-jessica.jpeg" height="100px" width="100px">
+
+      <h1>Jessica Randall</h1>
+      <h4>London, United Kingdom</h4>
+
+      
+
+      <div>
+        <span>"Front-end developer and avid reader."</span>
+        <ul>
+          <li>GitHub</li>
+          <li>Frontend Mentor</li>
+          <li>LinkedIn</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+        </ul>
+      </div>
+    </div>  
+  </section>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/yMRamos">yMRamos</a>.
+  </div>
+</body>
+</html>
